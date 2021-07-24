@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Form = ({ todos, setTodos, inputText, setInputText }) => {
+const TodoForm = ({ todos, setTodos, inputText, setInputText }) => {
 
   const handleSubmitTodo = (e) => {
     e.preventDefault()
@@ -35,4 +35,4 @@ const Form = ({ todos, setTodos, inputText, setInputText }) => {
   )
 }
 
-export default Form;
+export default TodoForm;
