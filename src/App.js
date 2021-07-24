@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Form from './components/Form';
+import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <header>
         <h1>Johnphealipto's Todo List</h1>
       </header> 
-      <Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText} />
+      <TodoForm todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText} />
       <TodoList todos={todos} />
     </div>
   );
